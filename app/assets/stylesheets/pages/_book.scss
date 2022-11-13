@@ -1,0 +1,19 @@
+.book-body {
+  width: 80%;
+}
+.book-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 128px;
+  h5 {
+    margin-top: 64px;
+    z-index: 10;
+    color: $light-grey;
+  }
+}
+
+.shopify-buy__collection {
+  overflow: visible;
+}
