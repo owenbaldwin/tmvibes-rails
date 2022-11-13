@@ -19,7 +19,8 @@ body {
 .home-card-wide-outer-left{
   display: flex;
   justify-content: flex-start;
-  margin: 16px 0px;
+  margin: 64px 0px;
+
 }
 
 .home-card-wide-outer-right {
@@ -39,6 +40,7 @@ body {
   justify-content: center;
   text-align: justify;
   align-items: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.704);
   p {
     margin: 0px;
   }
@@ -55,8 +57,42 @@ body {
   justify-content: center;
   text-align: justify;
   align-items: center;
-
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.704);
   p {
     margin: 0px;
   }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.neon-border-hp {
+  box-shadow: inset 0px 0px 15px white,
+      0px 0px 15px white,
+      inset 0px 0px 40px $light-green,
+      0px 0px 40px $light-green;
+  overflow: hidden;
+  border-radius: 12px;
+  height: 500px;
+  display: inline-block;
+  position: relative;
+
+}
+
+.neon-border-hp::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  background: $light-green;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1em);
+  opacity: 0.7;
 }
