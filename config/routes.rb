@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   get :shop, to: 'pages#shop'
   get :book, to: 'pages#book'
   get :contact, to: 'pages#contact'
+  get :gallery, to: 'pages#gallery'
+
 end
