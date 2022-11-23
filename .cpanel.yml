@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/tmvistau/repositories/tmvibes-rails
-    - /bin/cp application.html.erb $DEPLOYPATH
+    - export DEPLOYPATH=/home/tmvistau/public_html/tmvibes-rails
+    - /bin/cp * $DEPLOYPATH
