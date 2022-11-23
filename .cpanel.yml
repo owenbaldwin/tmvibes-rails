@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tmvistau/repositories/tmvibes-rails
+    - /bin/cp -R images $DEPLOYPATH
