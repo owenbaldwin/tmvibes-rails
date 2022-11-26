@@ -29,3 +29,36 @@
 .image-right {
   margin-left: 32px;
 }
+
+
+
+@media screen and (max-width: $tablet) {
+  .about-body {
+    width: 100%;
+  }
+  .about-half {
+    flex-direction: column;
+    width: 100%;
+    .about-image {
+      width: 100%;
+      margin: 24px 0px;
+      object-fit: contain;
+      height: auto;
+    }
+    p {
+    font-size: 16px;
+    margin: 0px 12px;
+    }
+  }
+
+  .image-left {
+    margin-right: 0px;
+  }
+
+  .image-right {
+    margin-left: 0px;
+  }
+  .book-title {
+    margin-bottom: 0px;
+  }
+}
