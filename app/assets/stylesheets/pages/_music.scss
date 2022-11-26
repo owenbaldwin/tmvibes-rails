@@ -18,6 +18,7 @@
     box-shadow: 10px 10px 10px black;
     // margin: 0px 8px;
     transition: 0.5s;
+      height: 234px;
   }
   iframe:hover {
     transition: 0.5s;
@@ -26,5 +27,19 @@
         0px 0px 1px white,
         // inset 0px 0px 40px $light-green,
         0px 0px 15px $light-green;
+  }
+}
+
+
+
+@media screen and (max-width: $tablet) {
+  .music-section {
+    flex-direction: column;
+    margin: 0px;
+    iframe {
+      width: 100%;
+      margin-bottom: 24px;
+      height: 234px;
+    }
   }
 }
