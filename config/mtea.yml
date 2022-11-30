@@ -1,0 +1,7 @@
+# config/meta.yml
+
+meta_product_name: "TM Vibes - London Based Producer"
+meta_title: "TM Vibes - London Based Producer"
+meta_description: "TM Vibes is a Nigerian producer based in London, UK, specialising in afrobeats."
+meta_image: "sean-og.png" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
